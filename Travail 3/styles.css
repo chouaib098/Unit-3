@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 7em;
+}
+
+.drapeau {
+  display: flex;
+  flex-direction: row;
+}
+
+.drapeau img {
+  width: 160px;
+}
+
+#nav {
+  margin-left: 20em;
+  margin-top: 4em;
+}
+
+#nav a {
+  list-style-type: none;
+  display: inline;
+  font-size: 1.3em;
+  font-weight:bold;
+  margin-right: 2em;
+  text-decoration: none;
+  color: #333;
+}
+
+#nav a:hover{
+  color: rgb(212,212,235)
+}
+section{
+  display: flex;
+}
+.T1::first-letter{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.T1{
+  font-size: 1.25em;
+  text-indent: 0.8cm;
+  font-family: Cambria, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+aside {
+  float: right;
+  flex: 1;
+  width: 25%;
+  background: black;
+  color: white;
+  padding: 1.5em;
+  margin-left: 0.5em;
+  margin-right: 2.3em;
+  border-radius: 1em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.red-line {
+  border: none;
+  height: 3px;
+  background-color: red;
+ 
+}
+
+.découverte{
+  background: rgb(240,240,247);
+  flex: 2;
+  padding: 1.5em;
+  width: 65%;
+}
+
+.découverte img{
+  border-radius: 100;
+}
