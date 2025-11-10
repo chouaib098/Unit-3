@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 7em;
+}
+
+.drapeau {
+  display: flex;
+  flex-direction: row;
+}
+
+.drapeau img {
+  width: 160px;
+}
+
+#nav {
+  margin-left: 20em;
+  margin-top: 4em;
+}
+
+#nav a {
+  list-style-type: none;
+  display: inline;
+  font-size: 1.3em;
+  font-weight:bold;
+  margin-right: 2em;
+  text-decoration: none;
+  color: #333;
+}
+
+/* image du grand toronto */
+#nav a:hover{
+  color: rgb(212,212,235)
+}
+#grand-toronto img {
+  width: 100%;
+  height: 16cm;
+  border-radius: 1em;
+}
+#grand-toronto:hover {
+  transform: scale(0.9);
+}
+
+#grand-toronto figcaption {
+  text-shadow: 10px 10px 0px black;
+  position: relative;
+  bottom: 4em;
+  width: 94%;
+  padding: 1.5em;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 24px;
+}
+
+/* la section article et aside  */
+section{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.T1::first-letter{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+article{
+  flex: 2;
+  width: 60%;
+}
+.T1{
+  font-size: 1.25em;
+  text-indent: 0.8cm;
+  font-family: Cambria, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.T2{
+    font-size: 1.25em;
+  text-indent: 0.8cm;
+  font-family: Cambria, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+aside {
+  flex: 1;
+  width: 25%;
+  background: black;
+  color: white;
+  padding: 1.5em;
+  margin-left: 2em;
+  margin-right: 2.3em;
+  border-radius: 1em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 3em;
+}
+
+
+.red-line {
+  border: none;
+  height: 3px;
+  background-color: red;
+ 
+}
+
+.toronto-petit{
+  background: rgb(240,240,247);
+  flex: 2;
+  padding: 1.5em;
+
+  margin-left: 1em;
+
+}
+
+.toronto-petit img{
+  border-radius: 100%;
+  width: 20%;
+}
+
+h3{
+  margin-left: 6em;
+  font-size: 1.9em;
+}
+
+
+
+
